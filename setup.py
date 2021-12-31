@@ -24,7 +24,6 @@ setup(
     },
     entry_points={
         'console_scripts': [
-            'raw_cleaner = road_collisions_france.bin.raw_cleaner:main',
             'load_road_collisions_france = road_collisions_france.bin.load:main',
         ]
     }
