@@ -63,7 +63,6 @@ class Collisions(GenericObjects):
         else:
             search_dir = f'{dirpath}/{region}/**'
 
-        print(search_dir)
         for filename in glob.iglob(search_dir, recursive=True):
             if os.path.splitext(filename)[-1] not in {'.tgz'}:
                 continue
