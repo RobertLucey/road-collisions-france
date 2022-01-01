@@ -4,7 +4,7 @@ from road_collisions_france.models.collision import Collisions
 
 
 def main():
-    collisions = Collisions.load_all(region='fr')
+    collisions = Collisions.load_all()
 
     logger.info('Loaded %s collisions', (len(collisions)))
     logger.info('Do something with the data in the variable \'collisions\'...')
